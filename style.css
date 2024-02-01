@@ -1,0 +1,287 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Roboto", "Helvetica Neue";
+}
+
+header {
+    background-image: url(./images/header_bg.png);
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+header nav {
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo a {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+header .logo a span {
+    color: #B78601;
+}
+
+header nav ul li a {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+header nav ul li a:active {
+    color: #B78601;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 20px;
+}
+
+header .header_main {
+    width: 80%;
+    margin: auto;
+}
+header .header_fon{
+    background-image: url(./images/Header_fon.png);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+header .header_fon img{
+    width: 100%;
+    height: auto;
+}
+
+header .header_main p:nth-of-type(1) {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: 108px;
+}
+
+header .header_main h1 {
+    color: #B78601;
+    font-size: 50px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+header .header_main p:nth-of-type(2) {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 16px;
+}
+header .header_main button{
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 46px;
+    padding: 16px 63px;
+    border-radius: 35px;
+    border: 1px solid #eee;
+    background: transparent;
+    margin-bottom: 112px;
+}
+main{
+    width: 80%;
+    margin: auto;
+}
+main h2{
+    margin-top: 150px;
+}
+main .menu{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    margin-top: 80px;
+}
+main .menu img{
+    width: 100%;
+    height: auto;
+}
+.kol{
+    background: #181818;
+    margin-top: 100px;
+    
+    
+    
+}
+.kol2{
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+}
+.kol h4{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+    
+    
+    
+}
+.kol .uko {
+    
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+    padding-bottom: 90px;
+}
+.kol .uko .lol img{
+    width: 150px;
+    height: 150px;
+    
+    
+    
+}
+.kol .uko .lol h3{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    padding-top: 27px;
+   
+}
+.kol .uko .lol p{
+    width: 350px;
+    height: 155px;
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: 29px;
+    padding-top: 27px;
+    
+}
+.pli{
+    width: 80%;
+    margin: auto;
+}
+.pli h5{
+    color: #000;
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 140px;
+}
+.pok{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding-top: 100px;
+}
+.plo{
+    width: 251px;
+    height: 343px;
+    background: #181818;
+    
+    
+}
+.pli .pok .plo img{
+    width: 251px;
+    height: 199px;
+    flex-shrink: 0;
+}
+.pli .pok .plo h3{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 15px 30px;
+    
+
+    
+    
+}
+.pli .pok .plo p{
+    width: 173px;
+    height: 58px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    line-height: 20px; /* 142.857% */ 
+    padding-left: 30px;
+    
+}
+@media screen and (max-width: 780px){
+    .pli .pok{
+        
+        grid-template-columns: auto auto auto;
+       
+    }
+}
+@media screen and (max-width: 480px){
+    .pli .pok{
+        
+        grid-template-columns: auto auto;
+       
+    }
+}
+
+@media screen and (max-width: 780px){
+    .kol .uko{
+        
+        grid-template-columns: auto auto ;
+       
+    }
+}
+@media screen and (max-width: 780px){
+    main .menu{
+        
+        grid-template-columns: auto auto ;
+       
+    }
+}
+@media screen and (max-width: 380px){
+    main .menu{
+        
+        grid-template-columns: auto ;
+        
+    }
+}
+
+@media screen and (max-width: 380px){
+    header .header_main p:nth-of-type(1) {
+        font-size: 30px;
+    }
+    
+    header .header_main h1 {
+        font-size: 40px;
+        font-weight: 400;
+    }
+    
+    header .header_main p:nth-of-type(2) {
+        font-size: 15px;
+    }
+    header .header_main button{
+        font-size: 20px;
+        padding: 12px 43px;
+    }
+}
